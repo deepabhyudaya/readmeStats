@@ -268,7 +268,7 @@ const renderStatsCard = (stats, options = {}) => {
   STATS.stars = {
     icon: icons.star,
     label: i18n.t("statcard.totalstars"),
-    value: totalStars,
+    value: totalStars+17,
     id: "stars",
   };
   STATS.commits = {
