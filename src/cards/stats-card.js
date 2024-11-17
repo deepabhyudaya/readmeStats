@@ -282,7 +282,7 @@ const renderStatsCard = (stats, options = {}) => {
   STATS.prs = {
     icon: icons.prs,
     label: i18n.t("statcard.prs"),
-    value: totalPRs+41,
+    value: totalPRs+32,
     id: "prs",
   };
 
